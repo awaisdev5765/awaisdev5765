@@ -28,10 +28,19 @@ Android (Kotlin/Java) · iOS (Swift) · Flutter · React Native · Kotlin Multip
 - **Multimedia & offline-first** — streaming front-ends, offline readers, file transfer/sharing
 - **Engineering discipline** — test coverage, CI pipelines, upstream contribution workflow
 
-### 🚀 Shipped products
+### 📦 Open-source packages (pub.dev)
 
-**[Prism Markdown](https://pub.dev/packages/prism_markdown)** — a Dart/Flutter package on pub.dev
-<img src="https://img.shields.io/pub/v/prism_markdown?label=version&logo=dart&color=0175C2" alt="version"> <img src="https://img.shields.io/pub/points/prism_markdown?label=points&color=green" alt="points"> <img src="https://img.shields.io/pub/popularity/prism_markdown?label=popularity&color=blue" alt="popularity"> <img src="https://img.shields.io/pub/likes/prism_markdown?label=likes&color=red" alt="likes">
+Maintaining the **Prism** family — cohesive, well-tested Flutter packages for rendering and adaptive UI:
+
+| Package | What it does | Badges |
+|---|---|---|
+| [**prism_markdown**](https://pub.dev/packages/prism_markdown) | Fast, plugin-free Markdown widget with full CommonMark + GFM support — the maintained replacement for the discontinued `flutter_markdown` | ![](https://img.shields.io/pub/v/prism_markdown?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_markdown?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_markdown?label=likes&color=red) |
+| [**prism_code_view**](https://pub.dev/packages/prism_code_view) | Syntax-highlighted code viewer widget — built-in Dart/JSON/YAML tokenizers, copy button, line numbers, word wrap | ![](https://img.shields.io/pub/v/prism_code_view?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_code_view?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_code_view?label=likes&color=red) |
+| [**prism_adaptive_scaffold**](https://pub.dev/packages/prism_adaptive_scaffold) | Responsive adaptive scaffolds — bottom bar → navigation rail → extended rail from one widget; replacement for the discontinued `flutter_adaptive_scaffold` | ![](https://img.shields.io/pub/v/prism_adaptive_scaffold?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_adaptive_scaffold?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_adaptive_scaffold?label=likes&color=red) |
+
+> **prism_code_view** and **prism_adaptive_scaffold** badges will render once those packages are published — publish them first, then this section lights up automatically.
+
+### 🚀 Shipped products
 
 | | Product | Platform |
 |---|---|---|
@@ -68,7 +77,7 @@ Also shipped: hardware-keyboard seek/play/mute support in the player, and a long
 
 ### ⚡ Approach
 
-Small, well-tested, issue-linked changes with CI-clean delivery — and responsiveness with maintainers. Currently active in: NewPipe, Kiwix (Android + Apple), NewPipeExtractor, WordPress Mobile — and maintaining [prism_markdown](https://pub.dev/packages/prism_markdown) on pub.dev.
+Small, well-tested, issue-linked changes with CI-clean delivery — and responsiveness with maintainers. Currently active in: NewPipe, Kiwix (Android + Apple), NewPipeExtractor, WordPress Mobile — and maintaining the **Prism package family** on pub.dev.
 
 ---
 
