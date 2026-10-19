@@ -6,10 +6,13 @@
 
 Android (Kotlin/Java) · iOS (Swift) · Flutter · React Native · Kotlin Multiplatform · Python · Node.js
 
-[![Google Play](https://img.shields.io/badge/Google_Play-Published_Apps-3DDC84?logo=googleplay&logoColor=white)](https://play.google.com/store/apps/developer?id=Airtech_Solutions)
-[![App Store](https://img.shields.io/badge/App_Store-Published_Apps-0D96F6?logo=appstore&logoColor=white)](https://apps.apple.com/pk/developer/atg-middle-east-company-w-l-l/id1764554258)
-[![CodeCanyon](https://img.shields.io/badge/CodeCanyon-Marketplace_Seller-82B541?logo=envato&logoColor=white)](https://codecanyon.net/user/awaisdev5765/portfolio)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/awais-rehman-6b898022a/)
+<br>
+
+<a href="https://play.google.com/store/apps/developer?id=Airtech_Solutions"><img src="https://img.shields.io/badge/Google_Play-Published_Apps-3DDC84?style=for-the-badge&logo=googleplay&logoColor=white" alt="Google Play"></a>
+<a href="https://apps.apple.com/pk/developer/atg-middle-east-company-w-l-l/id1764554258"><img src="https://img.shields.io/badge/App_Store-Published_Apps-0D96F6?style=for-the-badge&logo=appstore&logoColor=white" alt="App Store"></a>
+<a href="https://pub.dev/packages/prism_markdown"><img src="https://img.shields.io/pub/v/prism_markdown?style=for-the-badge&logo=dart&label=pub.dev&color=0175C2" alt="pub.dev"></a>
+<a href="https://codecanyon.net/user/awaisdev5765/portfolio"><img src="https://img.shields.io/badge/CodeCanyon-Marketplace_Seller-82B541?style=for-the-badge&logo=envato&logoColor=white" alt="CodeCanyon"></a>
+<a href="https://www.linkedin.com/in/awais-rehman-6b898022a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 
 </div>
 
@@ -20,17 +23,21 @@ Android (Kotlin/Java) · iOS (Swift) · Flutter · React Native · Kotlin Multip
 - **Native Android** — Kotlin, Java, Jetpack Compose, MVVM, WorkManager, DI (Hilt/Koin)
 - **Native iOS** — Swift, App Store delivery end-to-end, Obj-C++ interop
 - **Cross-platform mobile** — Flutter, React Native, Kotlin Multiplatform (shared logic + Compose Multiplatform)
+- **Packages & libraries** — Dart/Flutter packages published on pub.dev
 - **Backend & tooling** — Node.js APIs/services and Python automation, scripting, and data tooling
 - **Multimedia & offline-first** — streaming front-ends, offline readers, file transfer/sharing
 - **Engineering discipline** — test coverage, CI pipelines, upstream contribution workflow
 
-### 📱 Shipped products
+### 🚀 Shipped products
+
+**[Prism Markdown](https://pub.dev/packages/prism_markdown)** — a Dart/Flutter package on pub.dev
+<img src="https://img.shields.io/pub/v/prism_markdown?label=version&logo=dart&color=0175C2" alt="version"> <img src="https://img.shields.io/pub/points/prism_markdown?label=points&color=green" alt="points"> <img src="https://img.shields.io/pub/popularity/prism_markdown?label=popularity&color=blue" alt="popularity"> <img src="https://img.shields.io/pub/likes/prism_markdown?label=likes&color=red" alt="likes">
 
 | | Product | Platform |
 |---|---|---|
-| 📦 | [**Airtech Solutions** — published Android apps](https://play.google.com/store/apps/developer?id=Airtech_Solutions) | Google Play |
-| 🍎 | [**ATG Middle East** — iOS apps published for a client](https://apps.apple.com/pk/developer/atg-middle-east-company-w-l-l/id1764554258) | Apple App Store |
-| 🛒 | [**CodeCanyon portfolio** — app templates & code products](https://codecanyon.net/user/awaisdev5765/portfolio) | Envato Market |
+| <img src="https://img.shields.io/badge/-Google_Play-3DDC84?style=flat-square&logo=googleplay" alt="Play"> | [**Airtech Solutions** — published Android apps](https://play.google.com/store/apps/developer?id=Airtech_Solutions) | Android |
+| <img src="https://img.shields.io/badge/-App_Store-0D96F6?style=flat-square&logo=appstore" alt="iOS"> | [**ATG Middle East** — iOS apps published for a client](https://apps.apple.com/pk/developer/atg-middle-east-company-w-l-l/id1764554258) | iOS |
+| <img src="https://img.shields.io/badge/-Envato-82B541?style=flat-square&logo=envato" alt="Envato"> | [**CodeCanyon portfolio** — app templates & code products](https://codecanyon.net/user/awaisdev5765/portfolio) | Marketplace |
 
 ### 🌍 Client work
 
@@ -61,10 +68,10 @@ Also shipped: hardware-keyboard seek/play/mute support in the player, and a long
 
 ### ⚡ Approach
 
-Small, well-tested, issue-linked changes with CI-clean delivery — and responsiveness with maintainers. Currently active in: NewPipe, Kiwix (Android + Apple), NewPipeExtractor, WordPress Mobile.
+Small, well-tested, issue-linked changes with CI-clean delivery — and responsiveness with maintainers. Currently active in: NewPipe, Kiwix (Android + Apple), NewPipeExtractor, WordPress Mobile — and maintaining [prism_markdown](https://pub.dev/packages/prism_markdown) on pub.dev.
 
 ---
 
 <div align="center">
-<a href="https://www.linkedin.com/in/awais-rehman-6b898022a/"><b>LinkedIn</b></a> · <a href="https://play.google.com/store/apps/developer?id=Airtech_Solutions"><b>Google Play</b></a> · <a href="https://apps.apple.com/pk/developer/atg-middle-east-company-w-l-l/id1764554258"><b>App Store</b></a> · <a href="https://codecanyon.net/user/awaisdev5765/portfolio"><b>CodeCanyon</b></a>
+<a href="https://www.linkedin.com/in/awais-rehman-6b898022a/"><b>LinkedIn</b></a> · <a href="https://play.google.com/store/apps/developer?id=Airtech_Solutions"><b>Google Play</b></a> · <a href="https://apps.apple.com/pk/developer/atg-middle-east-company-w-l-l/id1764554258"><b>App Store</b></a> · <a href="https://pub.dev/packages/prism_markdown"><b>pub.dev</b></a> · <a href="https://codecanyon.net/user/awaisdev5765/portfolio"><b>CodeCanyon</b></a>
 </div>
