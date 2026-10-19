@@ -8,6 +8,7 @@ Android (Kotlin/Java) · iOS (Swift) · Flutter · React Native · Kotlin Multip
 
 <br>
 
+<a href="https://awaisdev-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-awaisdev.vercel.app-FF6B35?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
 <a href="https://play.google.com/store/apps/developer?id=Airtech_Solutions"><img src="https://img.shields.io/badge/Google_Play-Published_Apps-3DDC84?style=for-the-badge&logo=googleplay&logoColor=white" alt="Google Play"></a>
 <a href="https://apps.apple.com/pk/developer/atg-middle-east-company-w-l-l/id1764554258"><img src="https://img.shields.io/badge/App_Store-Published_Apps-0D96F6?style=for-the-badge&logo=appstore&logoColor=white" alt="App Store"></a>
 <a href="https://pub.dev/packages/prism_markdown"><img src="https://img.shields.io/pub/v/prism_markdown?style=for-the-badge&logo=dart&label=pub.dev&color=0175C2" alt="pub.dev"></a>
@@ -30,20 +31,22 @@ Android (Kotlin/Java) · iOS (Swift) · Flutter · React Native · Kotlin Multip
 
 ### 📦 Open-source packages (pub.dev)
 
-Maintaining the **Prism** family — cohesive, well-tested Flutter packages for rendering and adaptive UI:
+Maintaining the **Prism** family — six cohesive, well-tested Flutter packages for content rendering and adaptive UI:
 
 | Package | What it does | Badges |
 |---|---|---|
 | [**prism_markdown**](https://pub.dev/packages/prism_markdown) | Fast, plugin-free Markdown widget with full CommonMark + GFM support — the maintained replacement for the discontinued `flutter_markdown` | ![](https://img.shields.io/pub/v/prism_markdown?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_markdown?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_markdown?label=likes&color=red) |
 | [**prism_code_view**](https://pub.dev/packages/prism_code_view) | Syntax-highlighted code viewer widget — built-in Dart/JSON/YAML tokenizers, copy button, line numbers, word wrap | ![](https://img.shields.io/pub/v/prism_code_view?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_code_view?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_code_view?label=likes&color=red) |
 | [**prism_adaptive_scaffold**](https://pub.dev/packages/prism_adaptive_scaffold) | Responsive adaptive scaffolds — bottom bar → navigation rail → extended rail from one widget; replacement for the discontinued `flutter_adaptive_scaffold` | ![](https://img.shields.io/pub/v/prism_adaptive_scaffold?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_adaptive_scaffold?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_adaptive_scaffold?label=likes&color=red) |
-
-> **prism_code_view** and **prism_adaptive_scaffold** badges will render once those packages are published — publish them first, then this section lights up automatically.
+| [**prism_adaptive_dialog**](https://pub.dev/packages/prism_adaptive_dialog) | Adaptive dialogs — bottom sheets on phones, centered dialogs on desktops, from one call | ![](https://img.shields.io/pub/v/prism_adaptive_dialog?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_adaptive_dialog?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_adaptive_dialog?label=likes&color=red) |
+| [**prism_state_views**](https://pub.dev/packages/prism_state_views) | Empty, loading, error, and success states from one widget — with Dart 3 sealed view-state classes | ![](https://img.shields.io/pub/v/prism_state_views?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_state_views?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_state_views?label=likes&color=red) |
+| [**prism_master_detail**](https://pub.dev/packages/prism_master_detail) | Adaptive master-detail layouts — side-by-side panes on tablets/desktops, stacked navigation on phones | ![](https://img.shields.io/pub/v/prism_master_detail?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_master_detail?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_master_detail?label=likes&color=red) |
 
 ### 🚀 Shipped products
 
 | | Product | Platform |
 |---|---|---|
+| <img src="https://img.shields.io/badge/-Portfolio-FF6B35?style=flat-square&logo=vercel" alt="Site"> | [**awaisdev.vercel.app** — portfolio & live project demos](https://awaisdev-portfolio.vercel.app/) | Web |
 | <img src="https://img.shields.io/badge/-Google_Play-3DDC84?style=flat-square&logo=googleplay" alt="Play"> | [**Airtech Solutions** — published Android apps](https://play.google.com/store/apps/developer?id=Airtech_Solutions) | Android |
 | <img src="https://img.shields.io/badge/-App_Store-0D96F6?style=flat-square&logo=appstore" alt="iOS"> | [**ATG Middle East** — iOS apps published for a client](https://apps.apple.com/pk/developer/atg-middle-east-company-w-l-l/id1764554258) | iOS |
 | <img src="https://img.shields.io/badge/-Envato-82B541?style=flat-square&logo=envato" alt="Envato"> | [**CodeCanyon portfolio** — app templates & code products](https://codecanyon.net/user/awaisdev5765/portfolio) | Marketplace |
@@ -77,10 +80,10 @@ Also shipped: hardware-keyboard seek/play/mute support in the player, and a long
 
 ### ⚡ Approach
 
-Small, well-tested, issue-linked changes with CI-clean delivery — and responsiveness with maintainers. Currently active in: NewPipe, Kiwix (Android + Apple), NewPipeExtractor, WordPress Mobile — and maintaining the **Prism package family** on pub.dev.
+Small, well-tested, issue-linked changes with CI-clean delivery — and responsiveness with maintainers. Currently active in: NewPipe, Kiwix (Android + Apple), NewPipeExtractor, WordPress Mobile — and maintaining the **six-package Prism family** on pub.dev.
 
 ---
 
 <div align="center">
-<a href="https://www.linkedin.com/in/awais-rehman-6b898022a/"><b>LinkedIn</b></a> · <a href="https://play.google.com/store/apps/developer?id=Airtech_Solutions"><b>Google Play</b></a> · <a href="https://apps.apple.com/pk/developer/atg-middle-east-company-w-l-l/id1764554258"><b>App Store</b></a> · <a href="https://pub.dev/packages/prism_markdown"><b>pub.dev</b></a> · <a href="https://codecanyon.net/user/awaisdev5765/portfolio"><b>CodeCanyon</b></a>
+<a href="https://awaisdev-portfolio.vercel.app/"><b>Portfolio</b></a> · <a href="https://www.linkedin.com/in/awais-rehman-6b898022a/"><b>LinkedIn</b></a> · <a href="https://play.google.com/store/apps/developer?id=Airtech_Solutions"><b>Google Play</b></a> · <a href="https://apps.apple.com/pk/developer/atg-middle-east-company-w-l-l/id1764554258"><b>App Store</b></a> · <a href="https://pub.dev/packages/prism_markdown"><b>pub.dev</b></a> · <a href="https://codecanyon.net/user/awaisdev5765/portfolio"><b>CodeCanyon</b></a>
 </div>
