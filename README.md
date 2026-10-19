@@ -18,7 +18,7 @@ Android (Kotlin/Java) · iOS (Swift) · Flutter · React Native · Kotlin Multip
 ### 🛠 What I build
 
 - **Native Android** — Kotlin, Java, Jetpack Compose, MVVM, WorkManager, DI (Hilt/Koin)
-- **Native iOS** — Swift, App Store delivery end-to-end
+- **Native iOS** — Swift, App Store delivery end-to-end, Obj-C++ interop
 - **Cross-platform mobile** — Flutter, React Native, Kotlin Multiplatform (shared logic + Compose Multiplatform)
 - **Backend & tooling** — Node.js APIs/services and Python automation, scripting, and data tooling
 - **Multimedia & offline-first** — streaming front-ends, offline readers, file transfer/sharing
@@ -38,13 +38,14 @@ Delivered mobile applications for **national and international clients** — fro
 
 ### 🔬 Open-source engineering
 
-Working across streaming, offline-knowledge, and publishing ecosystems:
+Active across streaming, offline-knowledge, and publishing ecosystems — Android, iOS, and desktop:
 
 | Project | Contribution | Stack | Status |
 |---|---|---|---|
 | [NewPipe](https://github.com/TeamNewPipe/NewPipe) | Settings migration to **Compose/KMP** (Content, Update screens) | Kotlin · Compose · Koin | ![](https://img.shields.io/github/pulls/detail/state/TeamNewPipe/NewPipe/13931) ![](https://img.shields.io/github/pulls/detail/state/TeamNewPipe/NewPipe/13932) |
 | [NewPipe](https://github.com/TeamNewPipe/NewPipe) | App-icon **clear-cache shortcut** + player **keyboard shortcuts** | Android | ![](https://img.shields.io/github/pulls/detail/state/TeamNewPipe/NewPipe/13930) |
 | [Kiwix Android](https://github.com/kiwix/kiwix-android) | OPDS search bug, TOC state fix, empty-state fix | Kotlin | ![](https://img.shields.io/github/pulls/detail/state/kiwix/kiwix-android/5215) ![](https://img.shields.io/github/pulls/detail/state/kiwix/kiwix-android/5214) ![](https://img.shields.io/github/pulls/detail/state/kiwix/kiwix-android/5216) |
+| [Kiwix Apple](https://github.com/kiwix/kiwix-apple) | **Crash fix**: hardening OPDS parser against malformed catalog ids | Swift · Obj-C++ | ![](https://img.shields.io/github/pulls/detail/state/kiwix/kiwix-apple/1795) |
 | [NewPipeExtractor](https://github.com/TeamNewPipe/NewPipeExtractor) | Automated test suite for hard-coded image sizes | Kotlin · JUnit | ![](https://img.shields.io/github/pulls/detail/state/TeamNewPipe/NewPipeExtractor/1555) |
 | [WordPress Android](https://github.com/wordpress-mobile/WordPress-Android) | Stats chart data-correctness fix + unit test | Kotlin | ![](https://img.shields.io/github/pulls/detail/state/wordpress-mobile/WordPress-Android/23423) |
 
@@ -60,7 +61,7 @@ Also shipped: hardware-keyboard seek/play/mute support in the player, and a long
 
 ### ⚡ Approach
 
-Small, well-tested, issue-linked changes with CI-clean delivery — and responsiveness with maintainers. Currently active in: NewPipe, Kiwix, NewPipeExtractor, WordPress Mobile.
+Small, well-tested, issue-linked changes with CI-clean delivery — and responsiveness with maintainers. Currently active in: NewPipe, Kiwix (Android + Apple), NewPipeExtractor, WordPress Mobile.
 
 ---
 
