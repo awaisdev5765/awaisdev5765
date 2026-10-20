@@ -4,7 +4,7 @@
 
 **Software Developer — Mobile & Full-Stack**
 
-Android (Kotlin/Java) · iOS (Swift) · Flutter · React Native · Kotlin Multiplatform · Python · Node.js
+Android (Kotlin/Java) · iOS (Swift) · Flutter · React Native · Kotlin Multiplatform · Swift on Server (Vapor) · Apple Swift tooling · Python · Node.js
 
 <br>
 
@@ -25,6 +25,7 @@ Android (Kotlin/Java) · iOS (Swift) · Flutter · React Native · Kotlin Multip
 - **Native iOS** — Swift, App Store delivery end-to-end, Obj-C++ interop
 - **Cross-platform mobile** — Flutter, React Native, Kotlin Multiplatform (shared logic + Compose Multiplatform)
 - **Packages & libraries** — Dart/Flutter packages published on pub.dev
+- **Swift ecosystem contributions** — upstream PRs to **vapor/vapor** (new public API) and **apple/swift-log**, **apple/swift-argument-parser** (bug fixes with full test coverage)
 - **Backend & tooling** — Node.js APIs/services and Python automation, scripting, and data tooling
 - **Multimedia & offline-first** — streaming front-ends, offline readers, file transfer/sharing
 - **Engineering discipline** — test coverage, CI pipelines, upstream contribution workflow
@@ -84,8 +85,25 @@ Active across streaming, offline-knowledge, and publishing ecosystems — Androi
 | [NewPipe](https://github.com/TeamNewPipe/NewPipe) | App-icon **clear-cache shortcut** + player **keyboard shortcuts** | Android | ![](https://img.shields.io/github/pulls/detail/state/TeamNewPipe/NewPipe/13930) |
 | [Kiwix Android](https://github.com/kiwix/kiwix-android) | OPDS search bug, TOC state fix, empty-state fix | Kotlin | ![](https://img.shields.io/github/pulls/detail/state/kiwix/kiwix-android/5215) ![](https://img.shields.io/github/pulls/detail/state/kiwix/kiwix-android/5214) ![](https://img.shields.io/github/pulls/detail/state/kiwix/kiwix-android/5216) |
 | [Kiwix Apple](https://github.com/kiwix/kiwix-apple) | **Crash fix**: hardening OPDS parser against malformed catalog ids | Swift · Obj-C++ | ![](https://img.shields.io/github/pulls/detail/state/kiwix/kiwix-apple/1795) |
+| [vapor/vapor](https://github.com/vapor/vapor) | New public API: `URLQueryContainer.contains(at:)` for query key presence checks | Swift · Server-side | ![](https://img.shields.io/github/pulls/detail/state/vapor/vapor/3610) |
+| [apple/swift-log](https://github.com/apple/swift-log) | Fix `MultiplexLogHandler` metadata priority — dictionary getter now matches documented first-handler-wins semantics | Swift · Server-side | ![](https://img.shields.io/github/pulls/detail/state/apple/swift-log/530) |
+| [apple/swift-argument-parser](https://github.com/apple/swift-argument-parser) | docc-reference fix: render short/single-dash names instead of bare `--` | Swift · Tooling | ![](https://img.shields.io/github/pulls/detail/state/apple/swift-argument-parser/991) |
+| [apple/swift-argument-parser](https://github.com/apple/swift-argument-parser) | Duplicate subcommand names/aliases now fail configuration instead of silently shadowing | Swift · Tooling | ![](https://img.shields.io/github/pulls/detail/state/apple/swift-argument-parser/993) |
 | [NewPipeExtractor](https://github.com/TeamNewPipe/NewPipeExtractor) | Automated test suite for hard-coded image sizes | Kotlin · JUnit | ![](https://img.shields.io/github/pulls/detail/state/TeamNewPipe/NewPipeExtractor/1555) |
 | [WordPress Android](https://github.com/wordpress-mobile/WordPress-Android) | Stats chart data-correctness fix + unit test | Kotlin | ![](https://img.shields.io/github/pulls/detail/state/wordpress-mobile/WordPress-Android/23423) |
+
+<details>
+<summary><b>More about the Swift core contributions</b></summary>
+<br>
+
+- **vapor/vapor [#3610](https://github.com/vapor/vapor/pull/3610)** — proposed and implemented `URLQueryContainer.contains(at:)`, a presence check for query key paths, backed by a decode-presence marker with full test coverage.
+- **apple/swift-log [#530](https://github.com/apple/swift-log/pull/530)** — resolved a documented-vs-actual contradiction in `MultiplexLogHandler` metadata priority; updated two tests that had encoded the incorrect behavior.
+- **apple/swift-argument-parser [#991](https://github.com/apple/swift-argument-parser/pull/991)** — fixed `generate-docc-reference` rendering bare `--` for short-only/single-dash arguments; new example + snapshot tests, all 574 existing tests byte-identical.
+- **apple/swift-argument-parser [#993](https://github.com/apple/swift-argument-parser/pull/993)** — duplicate subcommand names/aliases now fail configuration with a clear error instead of silently shadowing.
+
+Every change: issue-linked, fully tested locally against the complete suite, zero regressions.
+
+</details>
 
 <details>
 <summary><b>More about the NewPipe work</b></summary>
@@ -99,11 +117,10 @@ Also shipped: hardware-keyboard seek/play/mute support in the player, and a long
 
 ### ⚡ Approach
 
-Small, well-tested, issue-linked changes with CI-clean delivery — and responsiveness with maintainers. Currently active in: NewPipe, Kiwix (Android + Apple), NewPipeExtractor, WordPress Mobile — and maintaining the **13-package Prism family** on pub.dev.
+Small, well-tested, issue-linked changes with CI-clean delivery — and responsiveness with maintainers. Currently active in: NewPipe, Kiwix (Android + Apple), NewPipeExtractor, WordPress Mobile, and the **Apple Swift ecosystem (Vapor, swift-log, swift-argument-parser)** — and maintaining the **13-package Prism family** on pub.dev.
 
 ---
 
 <div align="center">
 <a href="https://awaisdev-portfolio.vercel.app/"><b>Portfolio</b></a> · <a href="https://www.linkedin.com/in/awais-rehman-6b898022a/"><b>LinkedIn</b></a> · <a href="https://play.google.com/store/apps/developer?id=Airtech_Solutions"><b>Google Play</b></a> · <a href="https://apps.apple.com/pk/developer/atg-middle-east-company-w-l-l/id1764554258"><b>App Store</b></a> · <a href="https://pub.dev/packages/prism_markdown"><b>pub.dev</b></a> · <a href="https://codecanyon.net/user/awaisdev5765/portfolio"><b>CodeCanyon</b></a>
 </div>
-
