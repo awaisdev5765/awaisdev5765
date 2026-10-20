@@ -31,16 +31,35 @@ Android (Kotlin/Java) · iOS (Swift) · Flutter · React Native · Kotlin Multip
 
 ### 📦 Open-source packages (pub.dev)
 
-Maintaining the **Prism** family — six cohesive, well-tested Flutter packages for content rendering and adaptive UI:
+Maintaining the **Prism** family — a cohesive suite of well-tested, pure-Flutter packages (all six platforms, no platform channels) for content rendering, adaptive UI, and app plumbing:
+
+**Content rendering**
 
 | Package | What it does | Badges |
 |---|---|---|
 | [**prism_markdown**](https://pub.dev/packages/prism_markdown) | Fast, plugin-free Markdown widget with full CommonMark + GFM support — the maintained replacement for the discontinued `flutter_markdown` | ![](https://img.shields.io/pub/v/prism_markdown?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_markdown?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_markdown?label=likes&color=red) |
-| [**prism_code_view**](https://pub.dev/packages/prism_code_view) | Syntax-highlighted code viewer widget — built-in Dart/JSON/YAML tokenizers, copy button, line numbers, word wrap | ![](https://img.shields.io/pub/v/prism_code_view?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_code_view?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_code_view?label=likes&color=red) |
-| [**prism_adaptive_scaffold**](https://pub.dev/packages/prism_adaptive_scaffold) | Responsive adaptive scaffolds — bottom bar → navigation rail → extended rail from one widget; replacement for the discontinued `flutter_adaptive_scaffold` | ![](https://img.shields.io/pub/v/prism_adaptive_scaffold?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_adaptive_scaffold?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_adaptive_scaffold?label=likes&color=red) |
-| [**prism_adaptive_dialog**](https://pub.dev/packages/prism_adaptive_dialog) | Adaptive dialogs — bottom sheets on phones, centered dialogs on desktops, from one call | ![](https://img.shields.io/pub/v/prism_adaptive_dialog?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_adaptive_dialog?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_adaptive_dialog?label=likes&color=red) |
-| [**prism_state_views**](https://pub.dev/packages/prism_state_views) | Empty, loading, error, and success states from one widget — with Dart 3 sealed view-state classes | ![](https://img.shields.io/pub/v/prism_state_views?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_state_views?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_state_views?label=likes&color=red) |
-| [**prism_master_detail**](https://pub.dev/packages/prism_master_detail) | Adaptive master-detail layouts — side-by-side panes on tablets/desktops, stacked navigation on phones | ![](https://img.shields.io/pub/v/prism_master_detail?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_master_detail?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_master_detail?label=likes&color=red) |
+| [**prism_code_view**](https://pub.dev/packages/prism_code_view) | Syntax-highlighted code viewer — built-in Dart/JSON/YAML tokenizers, copy button, line numbers, word wrap | ![](https://img.shields.io/pub/v/prism_code_view?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_code_view?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_code_view?label=likes&color=red) |
+| [**prism_changelog**](https://pub.dev/packages/prism_changelog) | In-app "What's New" screens — parses Keep-a-Changelog markdown into version cards, tracks last-seen versions | ![](https://img.shields.io/pub/v/prism_changelog?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_changelog?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_changelog?label=likes&color=red) |
+
+**Adaptive UI**
+
+| Package | What it does | Badges |
+|---|---|---|
+| [**prism_adaptive_scaffold**](https://pub.dev/packages/prism_adaptive_scaffold) | Responsive scaffolds — bottom bar → navigation rail → extended rail from one widget; replacement for the discontinued `flutter_adaptive_scaffold` | ![](https://img.shields.io/pub/v/prism_adaptive_scaffold?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_adaptive_scaffold?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_adaptive_scaffold?label=likes&color=red) |
+| [**prism_adaptive_dialog**](https://pub.dev/packages/prism_adaptive_dialog) | Adaptive dialogs — bottom sheets on phones, centered dialogs on desktop, from one call | ![](https://img.shields.io/pub/v/prism_adaptive_dialog?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_adaptive_dialog?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_adaptive_dialog?label=likes&color=red) |
+| [**prism_master_detail**](https://pub.dev/packages/prism_master_detail) | Master-detail layouts — side-by-side panes on tablets/desktop, stacked navigation on phones, keyboard-navigable | ![](https://img.shields.io/pub/v/prism_master_detail?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_master_detail?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_master_detail?label=likes&color=red) |
+| [**prism_search**](https://pub.dev/packages/prism_search) | Adaptive search — inline field with dropdown suggestions on desktop, full-screen search page on phones | ![](https://img.shields.io/pub/v/prism_search?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_search?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_search?label=likes&color=red) |
+| [**prism_settings**](https://pub.dev/packages/prism_settings) | Ready-made settings screens — tiles, toggles, sliders, dropdowns, sections with built-in search | ![](https://img.shields.io/pub/v/prism_settings?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_settings?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_settings?label=likes&color=red) |
+
+**App plumbing**
+
+| Package | What it does | Badges |
+|---|---|---|
+| [**prism_state_views**](https://pub.dev/packages/prism_state_views) | Empty, loading, error, and success states from one widget — Dart 3 sealed view-state classes | ![](https://img.shields.io/pub/v/prism_state_views?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_state_views?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_state_views?label=likes&color=red) |
+| [**prism_form**](https://pub.dev/packages/prism_form) | Declarative forms — composable validators, sealed submit states, inline errors, headless controller | ![](https://img.shields.io/pub/v/prism_form?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_form?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_form?label=likes&color=red) |
+| [**prism_toast**](https://pub.dev/packages/prism_toast) | Adaptive toasts — bottom-centered on mobile, stacked top-right cards on desktop, icon-led variants | ![](https://img.shields.io/pub/v/prism_toast?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_toast?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_toast?label=likes&color=red) |
+| [**prism_banner**](https://pub.dev/packages/prism_banner) | Dismissible in-app announcement banners — persistence, scheduling, severity levels | ![](https://img.shields.io/pub/v/prism_banner?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_banner?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_banner?label=likes&color=red) |
+| [**prism_pagination**](https://pub.dev/packages/prism_pagination) | Infinite-scroll lists — automatic load-more, retryable errors, empty and end-of-list states | ![](https://img.shields.io/pub/v/prism_pagination?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_pagination?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_pagination?label=likes&color=red) |
 
 ### 🚀 Shipped products
 
@@ -80,10 +99,11 @@ Also shipped: hardware-keyboard seek/play/mute support in the player, and a long
 
 ### ⚡ Approach
 
-Small, well-tested, issue-linked changes with CI-clean delivery — and responsiveness with maintainers. Currently active in: NewPipe, Kiwix (Android + Apple), NewPipeExtractor, WordPress Mobile — and maintaining the **six-package Prism family** on pub.dev.
+Small, well-tested, issue-linked changes with CI-clean delivery — and responsiveness with maintainers. Currently active in: NewPipe, Kiwix (Android + Apple), NewPipeExtractor, WordPress Mobile — and maintaining the **13-package Prism family** on pub.dev.
 
 ---
 
 <div align="center">
 <a href="https://awaisdev-portfolio.vercel.app/"><b>Portfolio</b></a> · <a href="https://www.linkedin.com/in/awais-rehman-6b898022a/"><b>LinkedIn</b></a> · <a href="https://play.google.com/store/apps/developer?id=Airtech_Solutions"><b>Google Play</b></a> · <a href="https://apps.apple.com/pk/developer/atg-middle-east-company-w-l-l/id1764554258"><b>App Store</b></a> · <a href="https://pub.dev/packages/prism_markdown"><b>pub.dev</b></a> · <a href="https://codecanyon.net/user/awaisdev5765/portfolio"><b>CodeCanyon</b></a>
 </div>
+
