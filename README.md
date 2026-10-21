@@ -25,7 +25,7 @@ Android (Kotlin/Java) · iOS (Swift) · Flutter · React Native · Kotlin Multip
 - **Native iOS** — Swift, App Store delivery end-to-end, Obj-C++ interop
 - **Cross-platform mobile** — Flutter, React Native, Kotlin Multiplatform (shared logic + Compose Multiplatform)
 - **Packages & libraries** — Dart/Flutter packages published on pub.dev
-- **Swift ecosystem contributions** — upstream PRs to **vapor/vapor** (new public API) and **apple/swift-log**, **apple/swift-argument-parser** (bug fixes with full test coverage)
+- **Swift ecosystem contributions** — upstream PRs to **vapor/vapor** (new public API), **apple/swift-collections** (memory-safety fix), **apple/swift-log**, **apple/swift-argument-parser** (bug fixes with full test coverage)
 - **Backend & tooling** — Node.js APIs/services and Python automation, scripting, and data tooling
 - **Multimedia & offline-first** — streaming front-ends, offline readers, file transfer/sharing
 - **Engineering discipline** — test coverage, CI pipelines, upstream contribution workflow
@@ -77,18 +77,20 @@ Delivered mobile applications for **national and international clients** — fro
 
 ### 🔬 Open-source engineering
 
-Active across streaming, offline-knowledge, and publishing ecosystems — Android, iOS, and desktop:
+Active across streaming, offline-knowledge, publishing, and Swift ecosystems — Android, iOS, and desktop:
 
 | Project | Contribution | Stack | Status |
 |---|---|---|---|
-| [NewPipe](https://github.com/TeamNewPipe/NewPipe) | Settings migration to **Compose/KMP** (Content, Update screens) | Kotlin · Compose · Koin | ![](https://img.shields.io/github/pulls/detail/state/TeamNewPipe/NewPipe/13931) ![](https://img.shields.io/github/pulls/detail/state/TeamNewPipe/NewPipe/13932) |
-| [NewPipe](https://github.com/TeamNewPipe/NewPipe) | App-icon **clear-cache shortcut** + player **keyboard shortcuts** | Android | ![](https://img.shields.io/github/pulls/detail/state/TeamNewPipe/NewPipe/13930) |
+| [apple/swift-collections](https://github.com/apple/swift-collections) | **Memory-safety fix**: double destroy in `OutputSpan._consumeAll` when consumer throws | Swift · Ownership | ![](https://img.shields.io/github/pulls/detail/state/apple/swift-collections/786) |
+| [vapor/console-kit](https://github.com/vapor/console-kit) | New feature: `Console.printTable(_:style:)` — bordered ASCII tables with auto column sizing | Swift · CLI | ![](https://img.shields.io/github/pulls/detail/state/vapor/console-kit/250) |
+| [vapor/websocket-kit](https://github.com/vapor/websocket-kit) | Expose **101 upgrade response headers** to client `onUpgrade` (auth-token flows) | Swift · Server-side | ![](https://img.shields.io/github/pulls/detail/state/vapor/websocket-kit/164) |
 | [Kiwix Android](https://github.com/kiwix/kiwix-android) | OPDS search bug, TOC state fix, empty-state fix | Kotlin | ![](https://img.shields.io/github/pulls/detail/state/kiwix/kiwix-android/5215) ![](https://img.shields.io/github/pulls/detail/state/kiwix/kiwix-android/5214) ![](https://img.shields.io/github/pulls/detail/state/kiwix/kiwix-android/5216) |
 | [Kiwix Apple](https://github.com/kiwix/kiwix-apple) | **Crash fix**: hardening OPDS parser against malformed catalog ids | Swift · Obj-C++ | ![](https://img.shields.io/github/pulls/detail/state/kiwix/kiwix-apple/1795) |
 | [vapor/vapor](https://github.com/vapor/vapor) | New public API: `URLQueryContainer.contains(at:)` for query key presence checks | Swift · Server-side | ![](https://img.shields.io/github/pulls/detail/state/vapor/vapor/3610) |
 | [apple/swift-log](https://github.com/apple/swift-log) | Fix `MultiplexLogHandler` metadata priority — dictionary getter now matches documented first-handler-wins semantics | Swift · Server-side | ![](https://img.shields.io/github/pulls/detail/state/apple/swift-log/530) |
 | [apple/swift-argument-parser](https://github.com/apple/swift-argument-parser) | docc-reference fix: render short/single-dash names instead of bare `--` | Swift · Tooling | ![](https://img.shields.io/github/pulls/detail/state/apple/swift-argument-parser/991) |
 | [apple/swift-argument-parser](https://github.com/apple/swift-argument-parser) | Duplicate subcommand names/aliases now fail configuration instead of silently shadowing | Swift · Tooling | ![](https://img.shields.io/github/pulls/detail/state/apple/swift-argument-parser/993) |
+| [react-native-webview](https://github.com/react-native-webview/react-native-webview) | Android fix: real `isTopFrame` value in `shouldOverrideUrlLoading` (was hardcoded `true`) | Kotlin · TypeScript | ![](https://img.shields.io/github/pulls/detail/state/react-native-webview/react-native-webview/4048) |
 | [NewPipeExtractor](https://github.com/TeamNewPipe/NewPipeExtractor) | Automated test suite for hard-coded image sizes | Kotlin · JUnit | ![](https://img.shields.io/github/pulls/detail/state/TeamNewPipe/NewPipeExtractor/1555) |
 | [WordPress Android](https://github.com/wordpress-mobile/WordPress-Android) | Stats chart data-correctness fix + unit test | Kotlin | ![](https://img.shields.io/github/pulls/detail/state/wordpress-mobile/WordPress-Android/23423) |
 
@@ -96,28 +98,21 @@ Active across streaming, offline-knowledge, and publishing ecosystems — Androi
 <summary><b>More about the Swift core contributions</b></summary>
 <br>
 
+- **apple/swift-collections [#786](https://github.com/apple/swift-collections/pull/786)** — fixed double destroy in `OutputSpan._consumeAll` when the consumer throws: ownership now transfers before the throwing call, so the span's deinit is the sole destroyer. Noncopyable elements were deinit'd twice; class elements crashed with SIGSEGV.
 - **vapor/vapor [#3610](https://github.com/vapor/vapor/pull/3610)** — proposed and implemented `URLQueryContainer.contains(at:)`, a presence check for query key paths, backed by a decode-presence marker with full test coverage.
 - **apple/swift-log [#530](https://github.com/apple/swift-log/pull/530)** — resolved a documented-vs-actual contradiction in `MultiplexLogHandler` metadata priority; updated two tests that had encoded the incorrect behavior.
 - **apple/swift-argument-parser [#991](https://github.com/apple/swift-argument-parser/pull/991)** — fixed `generate-docc-reference` rendering bare `--` for short-only/single-dash arguments; new example + snapshot tests, all 574 existing tests byte-identical.
 - **apple/swift-argument-parser [#993](https://github.com/apple/swift-argument-parser/pull/993)** — duplicate subcommand names/aliases now fail configuration with a clear error instead of silently shadowing.
+- **vapor/console-kit [#250](https://github.com/vapor/console-kit/pull/250)** — new `Console.printTable(_:style:)` helper with auto-sized columns, bold header row, and 5 tests.
+- **vapor/websocket-kit [#164](https://github.com/vapor/websocket-kit/pull/164)** — new `connect` overloads (Future, proxy, async/await) exposing the 101 upgrade response `HTTPResponseHead` to client code.
 
 Every change: issue-linked, fully tested locally against the complete suite, zero regressions.
 
 </details>
 
-<details>
-<summary><b>More about the NewPipe work</b></summary>
-<br>
-
-Contributing to the **Jetpack Compose / Kotlin Multiplatform migration** ([tracking issue](https://github.com/TeamNewPipe/NewPipe/issues/11198)) — porting settings screens from the legacy PreferenceFragment stack to Compose with shared multiplatform ViewModels, Koin DI, and platform-action abstraction (`ContentActions`, `UpdateActions`).
-
-Also shipped: hardware-keyboard seek/play/mute support in the player, and a long-press app shortcut to wipe caches without opening the app ([PR #13930](https://github.com/TeamNewPipe/NewPipe/pull/13930)).
-
-</details>
-
 ### ⚡ Approach
 
-Small, well-tested, issue-linked changes with CI-clean delivery — and responsiveness with maintainers. Currently active in: NewPipe, Kiwix (Android + Apple), NewPipeExtractor, WordPress Mobile, and the **Apple Swift ecosystem (Vapor, swift-log, swift-argument-parser)** — and maintaining the **13-package Prism family** on pub.dev.
+Small, well-tested, issue-linked changes with CI-clean delivery — and responsiveness with maintainers. Currently active in: Kiwix (Android + Apple), NewPipeExtractor, WordPress Mobile, the **Apple Swift ecosystem (swift-collections, swift-log, swift-argument-parser, Vapor + satellite packages)**, and **React Native native modules** — while maintaining the **13-package Prism family** on pub.dev.
 
 ---
 
