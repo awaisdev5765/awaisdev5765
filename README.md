@@ -11,7 +11,8 @@ Android (Kotlin/Java) · iOS (Swift) · Flutter · React Native · Kotlin Multip
 <a href="https://awaisdev-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-awaisdev.vercel.app-FF6B35?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
 <a href="https://play.google.com/store/apps/developer?id=Airtech_Solutions"><img src="https://img.shields.io/badge/Google_Play-Published_Apps-3DDC84?style=for-the-badge&logo=googleplay&logoColor=white" alt="Google Play"></a>
 <a href="https://apps.apple.com/pk/developer/atg-middle-east-company-w-l-l/id1764554258"><img src="https://img.shields.io/badge/App_Store-Published_Apps-0D96F6?style=for-the-badge&logo=appstore&logoColor=white" alt="App Store"></a>
-<a href="https://pub.dev/packages/prism_markdown"><img src="https://img.shields.io/pub/v/prism_markdown?style=for-the-badge&logo=dart&label=pub.dev&color=0175C2" alt="pub.dev"></a>
+<a href="https://pub.dev/packages/prism_markdown"><img src="https://img.shields.io/pub/v/prism_markdown?style=for-the-badge&logo=dart&label=prism_markdown&color=0175C2" alt="prism_markdown"></a>
+<a href="https://pub.dev/packages/prism_palette"><img src="https://img.shields.io/pub/v/prism_palette?style=for-the-badge&logo=dart&label=prism_palette&color=8A63D2" alt="prism_palette"></a>
 <a href="https://codecanyon.net/user/awaisdev5765/portfolio"><img src="https://img.shields.io/badge/CodeCanyon-Marketplace_Seller-82B541?style=for-the-badge&logo=envato&logoColor=white" alt="CodeCanyon"></a>
 <a href="https://www.linkedin.com/in/awais-rehman-6b898022a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 
@@ -19,28 +20,41 @@ Android (Kotlin/Java) · iOS (Swift) · Flutter · React Native · Kotlin Multip
 
 ---
 
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=awaisdev5765&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" alt="GitHub stats">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=awaisdev5765&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="165" alt="Top languages">
+<br>
+<img src="https://github-profile-trophy.vercel.app/?username=awaisdev5765&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=8" width="100%" alt="Trophies">
+</div>
+
 ### 🛠 What I build
 
 - **Native Android** — Kotlin, Java, Jetpack Compose, MVVM, WorkManager, DI (Hilt/Koin)
 - **Native iOS** — Swift, App Store delivery end-to-end, Obj-C++ interop
 - **Cross-platform mobile** — Flutter, React Native, Kotlin Multiplatform (shared logic + Compose Multiplatform)
 - **Packages & libraries** — Dart/Flutter packages published on pub.dev
-- **Swift ecosystem contributions** — upstream PRs to **vapor/vapor** (new public API), **apple/swift-collections** (memory-safety fix), **apple/swift-log**, **apple/swift-argument-parser** (bug fixes with full test coverage)
+- **Swift ecosystem contributions** — upstream PRs to **vapor/vapor** (new public API), **apple/swift-log**, **apple/swift-argument-parser** (bug fixes with full test coverage)
 - **Backend & tooling** — Node.js APIs/services and Python automation, scripting, and data tooling
 - **Multimedia & offline-first** — streaming front-ends, offline readers, file transfer/sharing
 - **Engineering discipline** — test coverage, CI pipelines, upstream contribution workflow
 
 ### 📦 Open-source packages (pub.dev)
 
-Maintaining the **Prism** family — a cohesive suite of well-tested, pure-Flutter packages (all six platforms, no platform channels) for content rendering, adaptive UI, and app plumbing:
+Maintaining the **Prism** family — a cohesive suite of well-tested, pure-Flutter packages (all six platforms, no platform channels) for content rendering, adaptive UI, color theming, and app plumbing:
 
 **Content rendering**
 
 | Package | What it does | Badges |
 |---|---|---|
-| [**prism_markdown**](https://pub.dev/packages/prism_markdown) | Fast, plugin-free Markdown widget with full CommonMark + GFM support — the maintained replacement for the discontinued `flutter_markdown` | ![](https://img.shields.io/pub/v/prism_markdown?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_markdown?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_markdown?label=likes&color=red) |
+| [**prism_markdown**](https://pub.dev/packages/prism_markdown) | Fast, plugin-free Markdown widget with full CommonMark + GFM support — the maintained replacement for the discontinued `flutter_markdown`. Now with `maxLines`/`overflow` truncation and background-isolate parsing | ![](https://img.shields.io/pub/v/prism_markdown?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_markdown?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_markdown?label=likes&color=red) |
 | [**prism_code_view**](https://pub.dev/packages/prism_code_view) | Syntax-highlighted code viewer — built-in Dart/JSON/YAML tokenizers, copy button, line numbers, word wrap | ![](https://img.shields.io/pub/v/prism_code_view?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_code_view?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_code_view?label=likes&color=red) |
 | [**prism_changelog**](https://pub.dev/packages/prism_changelog) | In-app "What's New" screens — parses Keep-a-Changelog markdown into version cards, tracks last-seen versions | ![](https://img.shields.io/pub/v/prism_changelog?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_changelog?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_changelog?label=likes&color=red) |
+
+**Color & theming**
+
+| Package | What it does | Badges |
+|---|---|---|
+| [**prism_palette**](https://pub.dev/packages/prism_palette) | Fast color palette extraction from images — dominant colors and the six classic swatches (vibrant, muted, light/dark variants) built on `material_color_utilities`. The maintained replacement for the discontinued `palette_generator` | ![](https://img.shields.io/pub/v/prism_palette?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_palette?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_palette?label=likes&color=red) |
 
 **Adaptive UI**
 
@@ -81,41 +95,6 @@ Active across streaming, offline-knowledge, publishing, and Swift ecosystems —
 
 | Project | Contribution | Stack | Status |
 |---|---|---|---|
-| [apple/swift-collections](https://github.com/apple/swift-collections) | **Memory-safety fix**: double destroy in `OutputSpan._consumeAll` when consumer throws | Swift · Ownership | ![](https://img.shields.io/github/pulls/detail/state/apple/swift-collections/786) |
+| [react-native-async-storage](https://github.com/react-native-async-storage/async-storage) | **Build blocker fix**: podspec now follows React Native's minimum iOS version, unblocking Xcode 27 builds | iOS · Ruby/CocoaPods | ![](https://img.shields.io/github/pulls/detail/state/react-native-async-storage/async-storage/1358) |
 | [vapor/console-kit](https://github.com/vapor/console-kit) | New feature: `Console.printTable(_:style:)` — bordered ASCII tables with auto column sizing | Swift · CLI | ![](https://img.shields.io/github/pulls/detail/state/vapor/console-kit/250) |
 | [vapor/websocket-kit](https://github.com/vapor/websocket-kit) | Expose **101 upgrade response headers** to client `onUpgrade` (auth-token flows) | Swift · Server-side | ![](https://img.shields.io/github/pulls/detail/state/vapor/websocket-kit/164) |
-| [Kiwix Android](https://github.com/kiwix/kiwix-android) | OPDS search bug, TOC state fix, empty-state fix | Kotlin | ![](https://img.shields.io/github/pulls/detail/state/kiwix/kiwix-android/5215) ![](https://img.shields.io/github/pulls/detail/state/kiwix/kiwix-android/5214) ![](https://img.shields.io/github/pulls/detail/state/kiwix/kiwix-android/5216) |
-| [Kiwix Apple](https://github.com/kiwix/kiwix-apple) | **Crash fix**: hardening OPDS parser against malformed catalog ids | Swift · Obj-C++ | ![](https://img.shields.io/github/pulls/detail/state/kiwix/kiwix-apple/1795) |
-| [vapor/vapor](https://github.com/vapor/vapor) | New public API: `URLQueryContainer.contains(at:)` for query key presence checks | Swift · Server-side | ![](https://img.shields.io/github/pulls/detail/state/vapor/vapor/3610) |
-| [apple/swift-log](https://github.com/apple/swift-log) | Fix `MultiplexLogHandler` metadata priority — dictionary getter now matches documented first-handler-wins semantics | Swift · Server-side | ![](https://img.shields.io/github/pulls/detail/state/apple/swift-log/530) |
-| [apple/swift-argument-parser](https://github.com/apple/swift-argument-parser) | docc-reference fix: render short/single-dash names instead of bare `--` | Swift · Tooling | ![](https://img.shields.io/github/pulls/detail/state/apple/swift-argument-parser/991) |
-| [apple/swift-argument-parser](https://github.com/apple/swift-argument-parser) | Duplicate subcommand names/aliases now fail configuration instead of silently shadowing | Swift · Tooling | ![](https://img.shields.io/github/pulls/detail/state/apple/swift-argument-parser/993) |
-| [react-native-webview](https://github.com/react-native-webview/react-native-webview) | Android fix: real `isTopFrame` value in `shouldOverrideUrlLoading` (was hardcoded `true`) | Kotlin · TypeScript | ![](https://img.shields.io/github/pulls/detail/state/react-native-webview/react-native-webview/4048) |
-| [NewPipeExtractor](https://github.com/TeamNewPipe/NewPipeExtractor) | Automated test suite for hard-coded image sizes | Kotlin · JUnit | ![](https://img.shields.io/github/pulls/detail/state/TeamNewPipe/NewPipeExtractor/1555) |
-| [WordPress Android](https://github.com/wordpress-mobile/WordPress-Android) | Stats chart data-correctness fix + unit test | Kotlin | ![](https://img.shields.io/github/pulls/detail/state/wordpress-mobile/WordPress-Android/23423) |
-
-<details>
-<summary><b>More about the Swift core contributions</b></summary>
-<br>
-
-- **apple/swift-collections [#786](https://github.com/apple/swift-collections/pull/786)** — fixed double destroy in `OutputSpan._consumeAll` when the consumer throws: ownership now transfers before the throwing call, so the span's deinit is the sole destroyer. Noncopyable elements were deinit'd twice; class elements crashed with SIGSEGV.
-- **vapor/vapor [#3610](https://github.com/vapor/vapor/pull/3610)** — proposed and implemented `URLQueryContainer.contains(at:)`, a presence check for query key paths, backed by a decode-presence marker with full test coverage.
-- **apple/swift-log [#530](https://github.com/apple/swift-log/pull/530)** — resolved a documented-vs-actual contradiction in `MultiplexLogHandler` metadata priority; updated two tests that had encoded the incorrect behavior.
-- **apple/swift-argument-parser [#991](https://github.com/apple/swift-argument-parser/pull/991)** — fixed `generate-docc-reference` rendering bare `--` for short-only/single-dash arguments; new example + snapshot tests, all 574 existing tests byte-identical.
-- **apple/swift-argument-parser [#993](https://github.com/apple/swift-argument-parser/pull/993)** — duplicate subcommand names/aliases now fail configuration with a clear error instead of silently shadowing.
-- **vapor/console-kit [#250](https://github.com/vapor/console-kit/pull/250)** — new `Console.printTable(_:style:)` helper with auto-sized columns, bold header row, and 5 tests.
-- **vapor/websocket-kit [#164](https://github.com/vapor/websocket-kit/pull/164)** — new `connect` overloads (Future, proxy, async/await) exposing the 101 upgrade response `HTTPResponseHead` to client code.
-
-Every change: issue-linked, fully tested locally against the complete suite, zero regressions.
-
-</details>
-
-### ⚡ Approach
-
-Small, well-tested, issue-linked changes with CI-clean delivery — and responsiveness with maintainers. Currently active in: Kiwix (Android + Apple), NewPipeExtractor, WordPress Mobile, the **Apple Swift ecosystem (swift-collections, swift-log, swift-argument-parser, Vapor + satellite packages)**, and **React Native native modules** — while maintaining the **13-package Prism family** on pub.dev.
-
----
-
-<div align="center">
-<a href="https://awaisdev-portfolio.vercel.app/"><b>Portfolio</b></a> · <a href="https://www.linkedin.com/in/awais-rehman-6b898022a/"><b>LinkedIn</b></a> · <a href="https://play.google.com/store/apps/developer?id=Airtech_Solutions"><b>Google Play</b></a> · <a href="https://apps.apple.com/pk/developer/atg-middle-east-company-w-l-l/id1764554258"><b>App Store</b></a> · <a href="https://pub.dev/packages/prism_markdown"><b>pub.dev</b></a> · <a href="https://codecanyon.net/user/awaisdev5765/portfolio"><b>CodeCanyon</b></a>
-</div>
