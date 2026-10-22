@@ -98,3 +98,37 @@ Active across streaming, offline-knowledge, publishing, and Swift ecosystems —
 | [react-native-async-storage](https://github.com/react-native-async-storage/async-storage) | **Build blocker fix**: podspec now follows React Native's minimum iOS version, unblocking Xcode 27 builds | iOS · Ruby/CocoaPods | ![](https://img.shields.io/github/pulls/detail/state/react-native-async-storage/async-storage/1358) |
 | [vapor/console-kit](https://github.com/vapor/console-kit) | New feature: `Console.printTable(_:style:)` — bordered ASCII tables with auto column sizing | Swift · CLI | ![](https://img.shields.io/github/pulls/detail/state/vapor/console-kit/250) |
 | [vapor/websocket-kit](https://github.com/vapor/websocket-kit) | Expose **101 upgrade response headers** to client `onUpgrade` (auth-token flows) | Swift · Server-side | ![](https://img.shields.io/github/pulls/detail/state/vapor/websocket-kit/164) |
+| [Kiwix Android](https://github.com/kiwix/kiwix-android) | OPDS search bug, TOC state fix, empty-state fix | Kotlin | ![](https://img.shields.io/github/pulls/detail/state/kiwix/kiwix-android/5215) ![](https://img.shields.io/github/pulls/detail/state/kiwix/kiwix-android/5214) ![](https://img.shields.io/github/pulls/detail/state/kiwix/kiwix-android/5216) |
+| [Kiwix Apple](https://github.com/kiwix/kiwix-apple) | **Crash fix**: hardening OPDS parser against malformed catalog ids | Swift · Obj-C++ | ![](https://img.shields.io/github/pulls/detail/state/kiwix/kiwix-apple/1795) |
+| [vapor/vapor](https://github.com/vapor/vapor) | New public API: `URLQueryContainer.contains(at:)` for query key presence checks | Swift · Server-side | ![](https://img.shields.io/github/pulls/detail/state/vapor/vapor/3610) |
+| [apple/swift-log](https://github.com/apple/swift-log) | Fix `MultiplexLogHandler` metadata priority — dictionary getter now matches documented first-handler-wins semantics | Swift · Server-side | ![](https://img.shields.io/github/pulls/detail/state/apple/swift-log/530) |
+| [apple/swift-argument-parser](https://github.com/apple/swift-argument-parser) | docc-reference fix: render short/single-dash names instead of bare `--` | Swift · Tooling | ![](https://img.shields.io/github/pulls/detail/state/apple/swift-argument-parser/991) |
+| [apple/swift-argument-parser](https://github.com/apple/swift-argument-parser) | Duplicate subcommand names/aliases now fail configuration instead of silently shadowing | Swift · Tooling | ![](https://img.shields.io/github/pulls/detail/state/apple/swift-argument-parser/993) |
+| [react-native-webview](https://github.com/react-native-webview/react-native-webview) | Android fix: real `isTopFrame` value in `shouldOverrideUrlLoading` (was hardcoded `true`) | Kotlin · TypeScript | ![](https://img.shields.io/github/pulls/detail/state/react-native-webview/react-native-webview/4048) |
+| [NewPipeExtractor](https://github.com/TeamNewPipe/NewPipeExtractor) | Automated test suite for hard-coded image sizes | Kotlin · JUnit | ![](https://img.shields.io/github/pulls/detail/state/TeamNewPipe/NewPipeExtractor/1555) |
+| [WordPress Android](https://github.com/wordpress-mobile/WordPress-Android) | Stats chart data-correctness fix + unit test | Kotlin | ![](https://img.shields.io/github/pulls/detail/state/wordpress-mobile/WordPress-Android/23423) |
+
+<details>
+<summary><b>More about the Swift core contributions</b></summary>
+<br>
+
+- **vapor/vapor [#3610](https://github.com/vapor/vapor/pull/3610)** — proposed and implemented `URLQueryContainer.contains(at:)`, a presence check for query key paths, backed by a decode-presence marker with full test coverage.
+- **apple/swift-log [#530](https://github.com/apple/swift-log/pull/530)** — resolved a documented-vs-actual contradiction in `MultiplexLogHandler` metadata priority; updated two tests that had encoded the incorrect behavior.
+- **apple/swift-argument-parser [#991](https://github.com/apple/swift-argument-parser/pull/991)** — fixed `generate-docc-reference` rendering bare `--` for short-only/single-dash arguments; new example + snapshot tests, all 574 existing tests byte-identical.
+- **apple/swift-argument-parser [#993](https://github.com/apple/swift-argument-parser/pull/993)** — duplicate subcommand names/aliases now fail configuration with a clear error instead of silently shadowing.
+- **vapor/console-kit [#250](https://github.com/vapor/console-kit/pull/250)** — new `Console.printTable(_:style:)` helper with auto-sized columns, bold header row, and 5 tests.
+- **vapor/websocket-kit [#164](https://github.com/vapor/websocket-kit/pull/164)** — new `connect` overloads (Future, proxy, async/await) exposing the 101 upgrade response `HTTPResponseHead` to client code.
+
+Every change: issue-linked, fully tested locally against the complete suite, zero regressions.
+
+</details>
+
+### ⚡ Approach
+
+Small, well-tested, issue-linked changes with CI-clean delivery — and responsiveness with maintainers. Currently active in: Kiwix (Android + Apple), NewPipeExtractor, WordPress Mobile, the **Apple Swift ecosystem (swift-log, swift-argument-parser, Vapor + satellite packages)**, and **React Native native modules (webview, async-storage)** — while maintaining the **14-package Prism family** on pub.dev.
+
+---
+
+<div align="center">
+<a href="https://awaisdev-portfolio.vercel.app/"><b>Portfolio</b></a> · <a href="https://www.linkedin.com/in/awais-rehman-6b898022a/"><b>LinkedIn</b></a> · <a href="https://play.google.com/store/apps/developer?id=Airtech_Solutions"><b>Google Play</b></a> · <a href="https://apps.apple.com/pk/developer/atg-middle-east-company-w-l-l/id1764554258"><b>App Store</b></a> · <a href="https://pub.dev/packages/prism_markdown"><b>pub.dev</b></a> · <a href="https://codecanyon.net/user/awaisdev5765/portfolio"><b>CodeCanyon</b></a>
+</div>
