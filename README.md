@@ -13,6 +13,7 @@ Android (Kotlin/Java) · iOS (Swift) · Flutter · React Native · Kotlin Multip
 <a href="https://apps.apple.com/pk/developer/atg-middle-east-company-w-l-l/id1764554258"><img src="https://img.shields.io/badge/App_Store-Published_Apps-0D96F6?style=for-the-badge&logo=appstore&logoColor=white" alt="App Store"></a>
 <a href="https://pub.dev/packages/prism_markdown"><img src="https://img.shields.io/pub/v/prism_markdown?style=for-the-badge&logo=dart&label=prism_markdown&color=0175C2" alt="prism_markdown"></a>
 <a href="https://pub.dev/packages/prism_palette"><img src="https://img.shields.io/pub/v/prism_palette?style=for-the-badge&logo=dart&label=prism_palette&color=8A63D2" alt="prism_palette"></a>
+<a href="https://pub.dev/packages/prism_ai"><img src="https://img.shields.io/pub/v/prism_ai?style=for-the-badge&logo=dart&label=prism_ai&color=FF6B35" alt="prism_ai"></a>
 <a href="https://codecanyon.net/user/awaisdev5765/portfolio"><img src="https://img.shields.io/badge/CodeCanyon-Marketplace_Seller-82B541?style=for-the-badge&logo=envato&logoColor=white" alt="CodeCanyon"></a>
 <a href="https://www.linkedin.com/in/awais-rehman-6b898022a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 
@@ -40,6 +41,7 @@ Android (Kotlin/Java) · iOS (Swift) · Flutter · React Native · Kotlin Multip
 - **Cross-platform mobile** — Flutter, React Native, Kotlin Multiplatform (shared logic + Compose Multiplatform)
 - **Packages & libraries** — Dart/Flutter packages published on pub.dev
 - **Swift ecosystem contributions** — upstream PRs to **vapor/vapor** (new public API), **apple/swift-log**, **apple/swift-argument-parser** (bug fixes with full test coverage)
+- **AI tooling** — provider-agnostic streaming client for LLM chat completions (OpenAI-compatible endpoints), built on SSE with typed events
 - **Backend & tooling** — Node.js APIs/services and Python automation, scripting, and data tooling
 - **Multimedia & offline-first** — streaming front-ends, offline readers, file transfer/sharing
 - **Engineering discipline** — test coverage, CI pipelines, upstream contribution workflow
@@ -61,6 +63,12 @@ Maintaining the **Prism** family — a cohesive suite of well-tested, pure-Flutt
 | Package | What it does | Badges |
 |---|---|---|
 | [**prism_palette**](https://pub.dev/packages/prism_palette) | Fast color palette extraction from images — dominant colors and the six classic swatches (vibrant, muted, light/dark variants) built on `material_color_utilities`. The maintained replacement for the discontinued `palette_generator` | ![](https://img.shields.io/pub/v/prism_palette?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_palette?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_palette?label=likes&color=red) |
+
+**AI**
+
+| Package | What it does | Badges |
+|---|---|---|
+| [**prism_ai**](https://pub.dev/packages/prism_ai) | Lean, provider-agnostic streaming client for AI chat completions — OpenAI, Ollama, Groq, DeepSeek and every OpenAI-compatible endpoint, with typed streaming events. Pairs with `prism_markdown` for live AI-response rendering | ![](https://img.shields.io/pub/v/prism_ai?logo=dart&color=0175C2) ![](https://img.shields.io/pub/points/prism_ai?label=points&color=green) ![](https://img.shields.io/pub/likes/prism_ai?label=likes&color=red) |
 
 **Adaptive UI**
 
@@ -131,7 +139,7 @@ Every change: issue-linked, fully tested locally against the complete suite, zer
 
 ### ⚡ Approach
 
-Small, well-tested, issue-linked changes with CI-clean delivery — and responsiveness with maintainers. Currently active in: Kiwix (Android + Apple), NewPipeExtractor, WordPress Mobile, the **Apple Swift ecosystem (swift-log, swift-argument-parser, Vapor + satellite packages)**, and **React Native native modules (webview, async-storage)** — while maintaining the **14-package Prism family** on pub.dev.
+Small, well-tested, issue-linked changes with CI-clean delivery — and responsiveness with maintainers. Currently active in: Kiwix (Android + Apple), NewPipeExtractor, WordPress Mobile, the **Apple Swift ecosystem (swift-log, swift-argument-parser, Vapor + satellite packages)**, and **React Native native modules (webview, async-storage)** — while maintaining the **15-package Prism family** on pub.dev — now including AI tooling.
 
 ---
 
