@@ -21,10 +21,16 @@ Android (Kotlin/Java) · iOS (Swift) · Flutter · React Native · Kotlin Multip
 ---
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=awaisdev5765&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" alt="GitHub stats">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=awaisdev5765&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="165" alt="Top languages">
-<br>
-<img src="https://github-profile-trophy.vercel.app/?username=awaisdev5765&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=8" width="100%" alt="Trophies">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=awaisdev5765&theme=tokyonight" height="150" alt="Profile details">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=awaisdev5765&theme=tokyonight" height="150" alt="Stats">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=awaisdev5765&theme=tokyonight&utcOffset=5" height="150" alt="Productive time">
+<br><br>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=awaisdev5765&theme=tokyonight" height="150" alt="Repos per language">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=awaisdev5765&theme=tokyonight" height="150" alt="Most commit language">
+</div>
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=kotlin,java,swift,dart,flutter,react,reactnative,androidstudio,xd,python,nodejs,express,git,github,gradle,swift&theme=dark" alt="Tech stack">
 </div>
 
 ### 🛠 What I build
