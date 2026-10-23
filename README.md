@@ -14,6 +14,7 @@ Android (Kotlin/Java) · iOS (Swift) · Flutter · React Native · Kotlin Multip
 <a href="https://pub.dev/packages/prism_markdown"><img src="https://img.shields.io/pub/v/prism_markdown?style=for-the-badge&logo=dart&label=prism_markdown&color=0175C2" alt="prism_markdown"></a>
 <a href="https://pub.dev/packages/prism_palette"><img src="https://img.shields.io/pub/v/prism_palette?style=for-the-badge&logo=dart&label=prism_palette&color=8A63D2" alt="prism_palette"></a>
 <a href="https://pub.dev/packages/prism_ai"><img src="https://img.shields.io/pub/v/prism_ai?style=for-the-badge&logo=dart&label=prism_ai&color=FF6B35" alt="prism_ai"></a>
+<a href="https://github.com/awaisdev5765/prism_chat_app"><img src="https://img.shields.io/badge/prism_chat_app-Demo%20App-FF6B35?style=for-the-badge&logo=flutter" alt="prism_chat_app"></a>
 <a href="https://codecanyon.net/user/awaisdev5765/portfolio"><img src="https://img.shields.io/badge/CodeCanyon-Marketplace_Seller-82B541?style=for-the-badge&logo=envato&logoColor=white" alt="CodeCanyon"></a>
 <a href="https://www.linkedin.com/in/awais-rehman-6b898022a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 
@@ -39,7 +40,7 @@ Android (Kotlin/Java) · iOS (Swift) · Flutter · React Native · Kotlin Multip
 - **Native Android** — Kotlin, Java, Jetpack Compose, MVVM, WorkManager, DI (Hilt/Koin)
 - **Native iOS** — Swift, App Store delivery end-to-end, Obj-C++ interop
 - **Cross-platform mobile** — Flutter, React Native, Kotlin Multiplatform (shared logic + Compose Multiplatform)
-- **Packages & libraries** — Dart/Flutter packages published on pub.dev
+- **Packages & libraries** — 15 Dart/Flutter packages published on pub.dev + open-source demo app
 - **Swift ecosystem contributions** — upstream PRs to **vapor/vapor** (new public API), **apple/swift-log**, **apple/swift-argument-parser** (bug fixes with full test coverage)
 - **AI tooling** — provider-agnostic streaming client for LLM chat completions (OpenAI-compatible endpoints), built on SSE with typed events
 - **Backend & tooling** — Node.js APIs/services and Python automation, scripting, and data tooling
@@ -139,7 +140,7 @@ Every change: issue-linked, fully tested locally against the complete suite, zer
 
 ### ⚡ Approach
 
-Small, well-tested, issue-linked changes with CI-clean delivery — and responsiveness with maintainers. Currently active in: Kiwix (Android + Apple), NewPipeExtractor, WordPress Mobile, the **Apple Swift ecosystem (swift-log, swift-argument-parser, Vapor + satellite packages)**, and **React Native native modules (webview, async-storage)** — while maintaining the **15-package Prism family** on pub.dev — now including AI tooling.
+Small, well-tested, issue-linked changes with CI-clean delivery — and responsiveness with maintainers. Currently active in: Kiwix (Android + Apple), NewPipeExtractor, WordPress Mobile, the **Apple Swift ecosystem (swift-log, swift-argument-parser, Vapor + satellite packages)**, and **React Native native modules (webview, async-storage)** — while maintaining the **15-package Prism family + demo app** on pub.dev — now including AI tooling.
 
 ---
 
